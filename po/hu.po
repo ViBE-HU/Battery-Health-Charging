@@ -1,14 +1,14 @@
 # Hungarian translation for Battery-Health-Charging@maniacx.github.com.
 # Copyright (C) 2023 Battery-Health-Charging@maniacx.github.com
 # This file is distributed under the same license as the Battery-Health-Charging@maniacx.github.com package.
-# ViBE <vibe@protonmail.com>, 2023.
+# ViBE <vibe@protonmail.com>, 2023-2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battery Health Charging\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 19:17-0700\n"
-"PO-Revision-Date: 2023-12-16 17:33+0100\n"
+"PO-Revision-Date: 2024-04-02 15:08+0200\n"
 "Last-Translator: ViBE <vibe@protonmail.com>\n"
 "Language-Team: Hungarian <vibe@protonmail.com>\n"
 "Language: hu\n"
@@ -23,7 +23,7 @@ msgstr "Töltési mód"
 
 #: lib/notifier.js:29
 msgid "Mode updated"
-msgstr ""
+msgstr "Töltési mód megváltozott"
 
 #: lib/notifier.js:34
 msgid "Battery Health Charging Error"
@@ -256,7 +256,7 @@ msgstr "Merítés kényszerítése"
 
 #: preferences/about.js:39
 msgid "2023-2024"
-msgstr ""
+msgstr "2023-2024"
 
 #: preferences/about.js:40
 msgid "GNU General Public License, version 3 or later"
