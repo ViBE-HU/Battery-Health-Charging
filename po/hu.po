@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battery Health Charging\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 19:17-0700\n"
-"PO-Revision-Date: 2024-04-02 15:08+0200\n"
+"PO-Revision-Date: 2024-05-22 23:34+0200\n"
 "Last-Translator: ViBE <vibe@protonmail.com>\n"
 "Language-Team: Hungarian <vibe@protonmail.com>\n"
 "Language: hu\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: lib/notifier.js:78
 msgid "Missing dependencies"
-msgstr "Megoldatlan függőségek vannak."
+msgstr "Megoldatlan függőségek vannak"
 
 #: lib/notifier.js:82
 msgid "Please install polkit from extension settings under Installation."
@@ -260,7 +260,7 @@ msgstr "2023-2024"
 
 #: preferences/about.js:40
 msgid "GNU General Public License, version 3 or later"
-msgstr "GNU General Public License 3. vagy újabb verzió"
+msgstr "GNU General Public License, 3-as vagy későbbi verzió"
 
 #: preferences/about.js:47
 #, javascript-format
@@ -273,8 +273,8 @@ msgid ""
 "This application comes with absolutely no warranty. See the <a "
 "href=\"%s\">%s</a> for details."
 msgstr ""
-"A programra nem vállalunk semmiféle garanciát. Részletekért lásd: <a "
-"href=\"%s\">%s</a>."
+"Erre az alkalmazásra egyáltalán nem vonatkozik garancia. További részletek "
+"a(z) <a href=\"%s\">%s</a> szövegében."
 
 #: preferences/general.js:53
 msgid ""
@@ -353,7 +353,7 @@ msgstr "Fordítások"
 
 #: ui/about.ui:136
 msgid "View sources on Github"
-msgstr "Forrás megtekintése"
+msgstr "Forráskód"
 
 #: ui/about.ui:153 ui/about.ui:271
 msgid "Legal"
@@ -377,7 +377,7 @@ msgstr "Vezérlés"
 
 #: ui/apple.ui:12
 msgid "Change the behavior of charging indicator light"
-msgstr "Jelzőlámpa jelzéseinek felülírása"
+msgstr "Jelzőlámpa jelzéseinek felülbírálása"
 
 #: ui/dell.ui:12
 msgid "Dell package for charging mode"
@@ -471,7 +471,7 @@ msgstr "Ikon helyzetének módosítása a többi értesítési ikonhoz képest."
 
 #: ui/general.ui:89
 msgid "Change battery indicator icon behavior"
-msgstr "Akkumulátor állapotjelző ikon felülírása"
+msgstr "Akkumulátor állapotjelző ikon felülbírálása"
 
 #: ui/general.ui:90
 msgid ""
@@ -571,30 +571,3 @@ msgstr "Jelenlegi érték"
 #: ui/thresholdSecondary.ui:154 ui/thresholdSecondary.ui:223
 msgid "Start charging threshold value"
 msgstr "Töltés indítása"
-
-#, javascript-format
-#~ msgid ""
-#~ "Encountered an unexpected error. (%s)\n"
-#~ "Choose correct dell package in extension settings.\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Váratlan hiba történt. (%s)\n"
-#~ "Megfelelő Dell modul beállítása szükséges.\n"
-#~ "Majd a kiterjesztést újra engedélyezni kell"
-
-#, javascript-format
-#~ msgid ""
-#~ "Charging threshold not updated. (%s)\n"
-#~ "Choose correct dell package in extension settings\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Töltési küszöb nem változott. (%s)\n"
-#~ "Megfelelő Dell modul beállítása szükséges\n"
-#~ "Majd a kiterjesztést újra engedélyezni kell"
-
-#~ msgid "2023"
-#~ msgstr "2023"
-
-#, javascript-format
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
