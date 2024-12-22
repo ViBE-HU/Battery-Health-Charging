@@ -1,30 +1,29 @@
-# French translation for Battery-Health-Charging@maniacx.github.com.
-# Copyright (C) 2023 Battery-Health-Charging@maniacx.github.com's COPYRIGHT HOLDER
-# This file is distributed under the same license as the Battery-Health-Charging@maniacx.github.com package.
-#
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: battery-health-charging\n"
+"Project-Id-Version: battery-health-charging-45\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 18:02-0800\n"
-"PO-Revision-Date: 2024-04-19 16:06-0700\n"
+"POT-Creation-Date: 2024-12-22 00:07-0800\n"
+"PO-Revision-Date: 2024-12-15 14:52\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
-"Language: fr\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: battery-health-charging-45\n"
+"X-Crowdin-Project-ID: 613375\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /po/Battery-Health-Charging.pot\n"
+"X-Crowdin-File-ID: 73\n"
 
 #: lib/notifier.js:29
 msgid "Battery Health Charging"
-msgstr "Battery Health Charging"
+msgstr "Charge intelligente de la batterie"
 
 #: lib/notifier.js:34
 msgid "Battery Health Charging Error"
-msgstr "Battery Health Charging Erreur"
+msgstr "Erreur avec la charge intelligente de la batterie"
 
 #: lib/notifier.js:46 ui/general.ui:9
 msgid "Settings"
@@ -49,37 +48,37 @@ msgstr "Dépendances manquantes"
 #: lib/notifier.js:71
 msgid "Please install polkit from extension settings under Installation."
 msgstr ""
-"Veuillez installer polkit à partir des paramètres d'extension sous "
-"Installation."
+"Veuillez configurer polkit à partir des paramètres de l'extension dans la "
+"section Installation."
 
 #: lib/notifier.js:75
 msgid "Please update polkit from extension settings under Installation."
 msgstr ""
-"Veuillez mettre à jour polkit à partir des paramètres d'extension sous "
-"Installation."
+"Veuillez mettre à jour la configuration de polkit à partir des paramètres "
+"d'extension dans la section Installation."
 
 #: lib/notifier.js:79
 msgid "Install check failed."
-msgstr ""
+msgstr "La vérification de l'installation a échoué."
 
 #: lib/notifier.js:83
 msgid "Install check timed out."
-msgstr ""
+msgstr "La vérification de l'installation a expiré."
 
 #: lib/notifier.js:87
 #, javascript-format
 msgid "Encountered an unexpected error. (%s)"
-msgstr "Battery Health Charging a rencontré une erreur inattendue. (%s)"
+msgstr "Une erreur inattendue est survenue. (%s)"
 
 #: lib/notifier.js:91
 #, javascript-format
 msgid "Charging threshold not updated. (%s)"
-msgstr "Seuil d'arrêt de charge (%s)"
+msgstr "Seuil de charge non mis à jour. (%s)"
 
 #: lib/notifier.js:95
 #, javascript-format
 msgid "Threshold update process timed out. (%s)"
-msgstr ""
+msgstr "Le processus de mise à jour des seuils a expiré. (%s)"
 
 #: lib/notifier.js:99
 msgid "Apply correct Bios Password to set threshold."
@@ -92,13 +91,13 @@ msgid ""
 "Charge thresholds are set to %d / %d %%"
 msgstr ""
 "Batterie 1\n"
-"Seuils de charge de la batterie: %d / %d %%"
+"Seuils de charge réglés sur %d / %d %%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/notifier.js:108 lib/thresholdPanel.js:370
 #, javascript-format
 msgid "Charge thresholds are set to %d / %d %%"
-msgstr "Seuils de charge de la batterie: %d / %d %%"
+msgstr "Seuils de charge réglés sur %d / %d %%"
 
 #: lib/notifier.js:113
 #, javascript-format
@@ -107,13 +106,13 @@ msgid ""
 "Charging Limit is set to %d%%"
 msgstr ""
 "Batterie 1\n"
-"Seuil de charge de la batterie: %d%%"
+"Limite de charge réglée sur %d%%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/notifier.js:117 lib/thresholdPanel.js:374
 #, javascript-format
 msgid "Charging Limit is set to %d%%"
-msgstr "Seuil de charge de la batterie: %d%%"
+msgstr "Limite de charge de réglée sur %d%%"
 
 #: lib/notifier.js:121
 #, javascript-format
@@ -122,7 +121,7 @@ msgid ""
 "Charge thresholds are set to %d / %d %%"
 msgstr ""
 "Batterie 2\n"
-"Seuil de charge de la batterie: %d / %d %%"
+"Seuils de charge réglés sur %d / %d %%"
 
 #: lib/notifier.js:126
 #, javascript-format
@@ -131,7 +130,7 @@ msgid ""
 "Charging Limit is set to %d%%"
 msgstr ""
 "Batterie 2\n"
-"Seuil de charge de la batterie: %d%%"
+"Limite de charge réglée sur %d%%"
 
 #: lib/notifier.js:131
 msgid "Charging Mode is set to Full Capacity"
@@ -158,6 +157,9 @@ msgid ""
 "Threshold not applied: Battery level above 75%. Please unplug the charger "
 "and discharge the battery below 75% to apply the 80% limit."
 msgstr ""
+"Seuil non appliqué : niveau de batterie supérieur à 75%. Veuillez débrancher "
+"le chargeur et décharger la batterie en dessous de 75% pour appliquer la "
+"limite de 80%."
 
 #: lib/powerIcon42.js:134 lib/powerIcon.js:116 lib/powerIcon.js:122
 #, javascript-format
@@ -191,7 +193,7 @@ msgstr "Mode capacité maximale"
 #: lib/thresholdPanel42.js:163 lib/thresholdPanel.js:87
 #: preferences/thresholdPrimary.js:210 preferences/thresholdSecondary.js:205
 msgid "Balanced Mode"
-msgstr "Mode équilibre"
+msgstr "Mode équilibré"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
 #: lib/thresholdPanel42.js:167 lib/thresholdPanel.js:96
@@ -253,7 +255,7 @@ msgstr "Mode de charge : Express"
 
 #: lib/thresholdPanel42.js:406 lib/thresholdPanel.js:493
 msgid "Force Discharge"
-msgstr "Décharge forcée"
+msgstr "Forcer la décharge"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  10 characters can be displayed here
 #: lib/thresholdPanel.js:30
@@ -307,7 +309,7 @@ msgstr "Express"
 
 #: preferences/about.js:41
 msgid "2023-2024"
-msgstr ""
+msgstr "2023-2024"
 
 #: preferences/about.js:42
 msgid "GNU General Public License, version 3 or later"
@@ -324,17 +326,17 @@ msgid ""
 "This application comes with absolutely no warranty. See the <a "
 "href=\"%s\">%s</a> for details."
 msgstr ""
-"Ce programme est fourni sans aucune garantie. Pour plus de détails, visitez "
+"Ce programme est fourni sans aucune garantie. Pour plus de détails, voir la "
 "<a href=\"%s\">%s</a>."
 
 #: preferences/chromebook.js:22 preferences/dell.js:27
 #: preferences/framework.js:22
 msgid "Sysfs node"
-msgstr ""
+msgstr "Nœud Sysfs"
 
 #: preferences/chromebook.js:23
 msgid "Ectool"
-msgstr ""
+msgstr "Ectool"
 
 #: preferences/dell.js:28
 msgid "Libsmbios"
@@ -342,11 +344,11 @@ msgstr "Libsmbios"
 
 #: preferences/dell.js:29
 msgid "Dell Command Center"
-msgstr "Dell Command Center"
+msgstr "Dell Command Configure"
 
 #: preferences/framework.js:23
 msgid "Framework Tool"
-msgstr ""
+msgstr "Framework Tool"
 
 #: preferences/general.js:58
 msgid ""
@@ -385,7 +387,7 @@ msgstr "Désinstallation réussie."
 
 #: preferences/general.js:213
 msgid "Encountered an unexpected error."
-msgstr "Battery Health Charging a rencontré une erreur inattendue."
+msgstr "Une erreur inattendue est survenue."
 
 #: preferences/thresholdPrimary.js:48
 msgid "Threshold"
@@ -414,7 +416,7 @@ msgstr "À propos"
 
 #: ui/about.ui:75
 msgid "Read me"
-msgstr "Lisez moi"
+msgstr "Lisez-moi"
 
 #: ui/about.ui:97
 msgid "Report an Issue"
@@ -426,7 +428,7 @@ msgstr "Traductions"
 
 #: ui/about.ui:136
 msgid "View sources on Github"
-msgstr "Accéder au code source"
+msgstr "Accéder au code source sur GitHub"
 
 #: ui/about.ui:153 ui/about.ui:271
 msgid "Legal"
@@ -456,7 +458,7 @@ msgstr "Modifier le comportement du témoin de charge"
 
 #: ui/asus.ui:12 ui/thinkpad.ui:24
 msgid "Skip Threshold Verification"
-msgstr ""
+msgstr "Ignorer la vérification du seuil"
 
 #: ui/asus.ui:13 ui/thinkpad.ui:25
 msgid ""
@@ -464,14 +466,19 @@ msgid ""
 "consistently or after restart, sleep, or hibernate. Enable this setting to "
 "force threshold updates if you encounter this issue."
 msgstr ""
+"En raison d'un bug du micrologiciel ou du noyau, certains ordinateurs "
+"peuvent renvoyer des valeurs de seuil incorrectes systématiquement ou bien "
+"après un redémarrage ou une mise en veille. Dans ce cas, activez ce "
+"paramètre pour forcer la mise à jour des seuils."
 
 #: ui/chromebook.ui:12 ui/dell.ui:12 ui/framework.ui:12
 msgid "Select configuration for charging mode"
-msgstr ""
+msgstr "Sélectionnez la configuration pour le mode de charge"
 
 #: ui/chromebook.ui:13 ui/dell.ui:13 ui/framework.ui:13
 msgid "Select configuration used for changing charging mode/threshold."
 msgstr ""
+"Sélectionnez la configuration utilisée pour modifier le mode/seuil de charge."
 
 #: ui/dell.ui:26
 msgid "Bios Authentication"
@@ -479,8 +486,7 @@ msgstr "Authentification du BIOS"
 
 #: ui/dell.ui:29
 msgid "Requires Bios password validation to change mode/threshold"
-msgstr ""
-"Nécessite la validation du mot de passe du BIOS pour changer le mode/le seuil"
+msgstr "Validation du mot de passe du BIOS requise pour changer le mode/seuil"
 
 #: ui/dell.ui:30
 msgid ""
@@ -488,7 +494,7 @@ msgid ""
 "threshold"
 msgstr ""
 "Activer si Dell Command Configure utilise un mot de passe BIOS (système) "
-"pour changer le mode/le seuil"
+"pour changer le mode/seuil"
 
 #: ui/dell.ui:42
 msgid "Enter Bios Password"
@@ -496,7 +502,7 @@ msgstr "Entrer le mot de passe du BIOS"
 
 #: ui/dell.ui:43
 msgid "Note: Bios password will be stored in Gnome Keyring"
-msgstr "Remarque : Le mot de passe du BIOS sera enregistré dans Gnome Keyring"
+msgstr "Remarque : Le mot de passe du BIOS sera stocké dans le trousseau Gnome"
 
 #: ui/general.ui:5
 msgid "General"
@@ -516,29 +522,29 @@ msgstr "Affiche des notifications lorsque le seuil est modifié."
 
 #: ui/general.ui:36
 msgid "Show preferences button"
-msgstr "Bouton Afficher les préférences"
+msgstr "Afficher le bouton des paramètres"
 
 #: ui/general.ui:37
 msgid "Adds a button to open extension preferences from quick settings panel."
 msgstr ""
-"Ajouter un bouton pour ouvrir les préférences d'extension à partir du "
-"panneau de configuration rapide."
+"Ajouter un bouton pour ouvrir les paramètres de l'extension depuis les "
+"paramètres rapides."
 
 #: ui/general.ui:48
 msgid "Display subtitle with current mode on quick menu button"
-msgstr "Afficher le mode de charge sur les sous-titres"
+msgstr "Afficher le mode actif sur le bouton des paramètres rapides"
 
 #: ui/general.ui:49
 msgid ""
 "Displays the current mode in the text form (subtitle) on the quick menu "
 "button."
 msgstr ""
-"Affiche le texte du mode actuel sur le bouton de menu à bascule rapide (sous-"
-"titre)."
+"Affiche le mode de charge actif en sous-titre du bouton des paramètres "
+"rapides."
 
 #: ui/general.ui:60
 msgid "Show system indicator"
-msgstr "Afficher l'indicateur du système"
+msgstr "Afficher l'indicateur système"
 
 #: ui/general.ui:61
 msgid "Shows an icon in system tray."
@@ -551,12 +557,12 @@ msgstr "Index de l'indicateur"
 #: ui/general.ui:73
 msgid "The position relative of indicator icon to other items."
 msgstr ""
-"Échanger la position de l'icône du drapeau avec une autre icône de la barre "
-"d'état système."
+"Échange la position de l'indicateur avec une autre icône de la barre d'état "
+"système."
 
 #: ui/general.ui:89
 msgid "Change battery indicator icon behavior"
-msgstr "Comportement de l'icône de la batterie"
+msgstr "Modifier le comportement de l'icône de l'indicateur de batterie"
 
 #: ui/general.ui:90
 msgid ""
@@ -575,7 +581,7 @@ msgstr "Installation"
 
 #: ui/general.ui:106
 msgid "Install privileges for this user"
-msgstr "Installer les privilèges root pour cet utilisateur"
+msgstr "Configurer les privilèges pour cet utilisateur"
 
 #: ui/general.ui:107
 msgid "Install / Update / Remove"
@@ -600,7 +606,7 @@ msgstr ""
 "<b>Les privilèges root sont requis</b> pour installer, mettre à jour ou "
 "supprimer le script de politique polkit.\n"
 "\n"
-"<b>Installer/Mettre à jour</b> ce script de politique polkit et continuer à "
+"<b>Installez/Mettez à jour</b> ce script de politique polkit et continuer à "
 "utiliser cette extension.\n"
 "<b>Supprimez</b> ce script de politique polkit avant de désinstaller cette "
 "extension."
@@ -615,7 +621,7 @@ msgstr "Symbole et Pourcentage"
 
 #: ui/general.ui:136
 msgid "Percentage Highlighted"
-msgstr "Pourcentage en surbrillance"
+msgstr "Pourcentage mis en évidence"
 
 #: ui/thinkpad.ui:12
 msgid "Enable force discharge battery feature (Experimental)"
@@ -626,8 +632,8 @@ msgid ""
 "Enable option to force discharge battery when battery level higher than "
 "current threshold"
 msgstr ""
-"Activer l'option de décharge forcée de la batterie lorsque le niveau de la "
-"batterie est supérieur au seuil actuel"
+"Activer l'option pour forcer la décharge de la batterie lorsque le niveau de "
+"la batterie est supérieur au seuil actuel"
 
 #: ui/thresholdPrimary.ui:21 ui/thresholdSecondary.ui:21
 msgid "Customize"
@@ -662,40 +668,3 @@ msgstr "Valeur Actuelle"
 msgid "Start charging threshold value"
 msgstr "Seuil de démarrage de la charge"
 
-#~ msgid "Mode updated"
-#~ msgstr "Mode de charge mis à jour"
-
-#, javascript-format
-#~ msgid "Discharge Battery below %d%%"
-#~ msgstr "Décharger la batterie en dessous de %d %%"
-
-#~ msgid "Dell package for charging mode"
-#~ msgstr "Forfait Dell pour le mode de charge"
-
-#~ msgid "Select Dell package used for changing charging mode/threshold."
-#~ msgstr ""
-#~ "Sélectionnez le package Dell utilisé pour modifier le mode/seuil de "
-#~ "charge."
-
-#, javascript-format
-#~ msgid ""
-#~ "Encountered an unexpected error. (%s)\n"
-#~ "Choose correct dell package in extension settings.\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Une erreur inattendue s'est produite. (%s)\n"
-#~ "Choisissez le package Dell correct dans les paramètres d'extension.\n"
-#~ "Désactiver et activer l'extension"
-
-#, javascript-format
-#~ msgid ""
-#~ "Charging threshold not updated. (%s)\n"
-#~ "Choose correct dell package in extension settings\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Seuil de charge non mis à jour. (%s)\n"
-#~ "Choisissez le package Dell correct dans les paramètres d'extension\n"
-#~ "Désactiver et activer l'extension"
-
-#~ msgid "2023"
-#~ msgstr "2023"

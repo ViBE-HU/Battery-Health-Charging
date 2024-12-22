@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: battery-health-charging-45\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 18:02-0800\n"
+"POT-Creation-Date: 2024-12-22 00:07-0800\n"
 "PO-Revision-Date: 2024-04-09 19:48\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
@@ -653,3 +653,15 @@ msgstr "Obecna wartość"
 msgid "Start charging threshold value"
 msgstr "Rozpocznij ładowanie wartości progowej"
 
+#~ msgid "Mode updated"
+#~ msgstr "Tryb zaktualizowany"
+
+#, javascript-format
+#~ msgid "Discharge Battery below %d%%"
+#~ msgstr "Rozładuj baterię poniżej %d%%"
+
+#~ msgid "Dell package for charging mode"
+#~ msgstr "Pakiet Dell dla trybu ładowania"
+
+#~ msgid "Select Dell package used for changing charging mode/threshold."
+#~ msgstr "Wybierz pakiet firmy Dell używany do zmiany trybu/progu ładowania."

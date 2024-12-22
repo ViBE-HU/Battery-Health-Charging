@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: battery-health-charging\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 18:02-0800\n"
+"POT-Creation-Date: 2024-12-22 00:07-0800\n"
 "PO-Revision-Date: 2024-04-19 16:01-0700\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -370,7 +370,7 @@ msgstr "更新"
 
 #: preferences/general.js:207
 msgid "Installation Successful."
-msgstr "安装成功。"
+msgstr "\"安装成功"
 
 #: preferences/general.js:210
 msgid "Uninstallation Successful."
@@ -638,3 +638,38 @@ msgstr "当前值"
 msgid "Start charging threshold value"
 msgstr "开始充电阈值"
 
+#~ msgid "Mode updated"
+#~ msgstr "充电模式更新"
+
+#, javascript-format
+#~ msgid "Discharge Battery below %d%%"
+#~ msgstr "放电量低于 %d%%"
+
+#~ msgid "Dell package for charging mode"
+#~ msgstr "充电模式戴尔套餐"
+
+#~ msgid "Select Dell package used for changing charging mode/threshold."
+#~ msgstr "选择用于更改充电模式/阈值的戴尔包。"
+
+#, javascript-format
+#~ msgid ""
+#~ "Encountered an unexpected error. (%s)\n"
+#~ "Choose correct dell package in extension settings.\n"
+#~ "Disable and enable the extension"
+#~ msgstr ""
+#~ "遇到意外错误。 (%s)\n"
+#~ "在扩展设置中选择正确的戴尔包。\n"
+#~ "禁用和启用扩展"
+
+#, javascript-format
+#~ msgid ""
+#~ "Charging threshold not updated. (%s)\n"
+#~ "Choose correct dell package in extension settings\n"
+#~ "Disable and enable the extension"
+#~ msgstr ""
+#~ "充电阈值未更新。 (%s)\n"
+#~ "在扩展设置中选择正确的戴尔包\n"
+#~ "禁用和启用扩展"
+
+#~ msgid "2023"
+#~ msgstr "2023"

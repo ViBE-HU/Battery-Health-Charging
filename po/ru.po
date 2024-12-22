@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: battery-health-charging\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 18:02-0800\n"
+"POT-Creation-Date: 2024-12-22 00:07-0800\n"
 "PO-Revision-Date: 2024-04-19 16:04-0700\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
@@ -652,3 +652,39 @@ msgstr "Текущее значение"
 msgid "Start charging threshold value"
 msgstr "Начать значение порога зарядки"
 
+#~ msgid "Mode updated"
+#~ msgstr "Режим зарядки обновлен"
+
+#, javascript-format
+#~ msgid "Discharge Battery below %d%%"
+#~ msgstr "Разряд ниже %d%%"
+
+#~ msgid "Dell package for charging mode"
+#~ msgstr "Пакет Dell для режима зарядки"
+
+#~ msgid "Select Dell package used for changing charging mode/threshold."
+#~ msgstr ""
+#~ "Выберите пакет Dell, используемый для изменения режима/порога зарядки."
+
+#, javascript-format
+#~ msgid ""
+#~ "Encountered an unexpected error. (%s)\n"
+#~ "Choose correct dell package in extension settings.\n"
+#~ "Disable and enable the extension"
+#~ msgstr ""
+#~ "Обнаружена непредвиденная ошибка. (% s)\n"
+#~ "Выберите правильный пакет Dell в настройках расширения.\n"
+#~ "Отключить и включить расширение"
+
+#, javascript-format
+#~ msgid ""
+#~ "Charging threshold not updated. (%s)\n"
+#~ "Choose correct dell package in extension settings\n"
+#~ "Disable and enable the extension"
+#~ msgstr ""
+#~ "Порог зарядки не обновлен. (% s)\n"
+#~ "Выберите правильный пакет Dell в настройках расширения\n"
+#~ "Отключить и включить расширение"
+
+#~ msgid "2023"
+#~ msgstr "2023"
